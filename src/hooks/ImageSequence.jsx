@@ -24,7 +24,7 @@ const ImageSequence = () => {
       const loadImages = [];
 
       for (let i = 1; i <= frames.maxIndex; i++) {
-        const imageUrl = `src/assets/frames/hui1/frame_${String(i).padStart(4, '0')}.jpeg`;
+        const imageUrl = `/assets/frames/hui1/frame_${String(i).padStart(4, '0')}.jpeg`;
 
         console.log(`Loading image URL: ${imageUrl}`); // Log the URL for debugging
 
